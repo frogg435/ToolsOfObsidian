@@ -14,10 +14,10 @@ import net.minecraft.world.item.crafting.Ingredient;
 public enum ArmorTier implements ArmorMaterial {
     OBSIDIAN("obsidian", 45,
             Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-                map.put(ArmorItem.Type.BOOTS, 3);
-                map.put(ArmorItem.Type.LEGGINGS, 6);
-                map.put(ArmorItem.Type.CHESTPLATE, 8);
-                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BOOTS, 5);
+                map.put(ArmorItem.Type.LEGGINGS, 8);
+                map.put(ArmorItem.Type.CHESTPLATE, 10);
+                map.put(ArmorItem.Type.HELMET, 5);
             }),
             20, SoundEvents.ARMOR_EQUIP_GENERIC, 5.0f, 0.5f,
             () -> Ingredient.of(ItemInit.OBSIDIAN_INGOT.get()));
