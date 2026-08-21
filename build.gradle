@@ -52,7 +52,10 @@ processResources {
             mod_description             : mod_description
     ]
     inputs.properties replaceProperties
-    expand replaceProperties
+    // Only expand placeholders in text files; binary assets (PNG etc.) are copied as-is.
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties
+    }
 }
 
 jar {
