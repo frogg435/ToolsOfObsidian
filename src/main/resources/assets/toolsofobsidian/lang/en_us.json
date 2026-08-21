@@ -1,0 +1,20 @@
+{
+//Items
+"item.toolsofobsidian.obsidian_sword": "Obsidian Sword",
+"item.toolsofobsidian.obsidian_hoe": "Obsidian Hoe",
+"item.toolsofobsidian.obsidian_axe": "Obsidian Axe",
+"item.toolsofobsidian.obsidian_pickaxe": "Obsidian Pickaxe",
+"item.toolsofobsidian.obsidian_shovel": "Obsidian Shovel",
+"item.toolsofobsidian.obsidian_bow": "Obsidian Bow",
+"item.toolsofobsidian.obsidian_ingot": "Obsidian Ingot",
+
+//ARMOR
+"item.toolsofobsidian.obsidian_helmet": "Obsidian Helmet",
+"item.toolsofobsidian.obsidian_chestplate": "Obsidian Chestplate",
+"item.toolsofobsidian.obsidian_leggings": "Obsidian Leggings",
+"item.toolsofobsidian.obsidian_boots": "Obsidian Boots",
+"item.toolsofobsidian.obsidian_horse_armor": "Obsidian Horse Armor",
+
+//Tabs
+"itemGroup.group": "Tools of Obsidian"
+}

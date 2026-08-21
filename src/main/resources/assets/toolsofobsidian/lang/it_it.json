@@ -1,0 +1,20 @@
+{
+//Items
+"item.toolsofobsidian.obsidian_sword": "Spada d'Ossidiana",
+"item.toolsofobsidian.obsidian_hoe": "Zappa d'Ossidiana",
+"item.toolsofobsidian.obsidian_axe": "Ascia d'Ossidiana",
+"item.toolsofobsidian.obsidian_pickaxe": "Piccone d'Ossidiana",
+"item.toolsofobsidian.obsidian_shovel": "Pala d'Ossidiana",
+"item.toolsofobsidian.obsidian_bow": "Arco d'Ossidiana",
+"item.toolsofobsidian.obsidian_ingot": "Lingotto d'Ossidiana",
+
+//ARMOR
+"item.toolsofobsidian.obsidian_helmet": "Elmo d'Ossidiana",
+"item.toolsofobsidian.obsidian_chestplate": "Corazza d'Ossidiana",
+"item.toolsofobsidian.obsidian_leggings": "Gambiere d'Ossidiana",
+"item.toolsofobsidian.obsidian_boots": "Stivali d'Ossidiana",
+"item.toolsofobsidian.obsidian_horse_armor": "Armatura d'Ossidiana per Cavalli",
+
+//Tabs
+"itemGroup.group": "Tools of Obsidian"
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SS ",
+        "SE ",
+        " E "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "toolsofobsidian:obsidian_ingot"
+        },
+        
+        "E":
+        {
+            "item": "minecraft:stick"
+        }      
+    },
+    
+    "result":
+    {
+        "item":  "toolsofobsidian:obsidian_axe",
+        "count": 1
+    }
+}

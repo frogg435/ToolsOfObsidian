@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "S S",
+        "SSS",
+        "SSS"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "toolsofobsidian:obsidian_ingot"
+        }    
+    },
+    
+    "result":
+    {
+        "item":  "toolsofobsidian:obsidian_chestplate"
+    }
+}

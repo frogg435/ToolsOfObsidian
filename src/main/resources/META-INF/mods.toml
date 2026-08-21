@@ -1,0 +1,65 @@
+# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
+
+# The overall format is standard TOML format, v0.5.0.
+
+# Find more information on toml format here:  https://github.com/toml-lang/toml
+
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml" #mandatory
+
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="${loader_version_range}" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+license="All Rights Reserved" #mandatory
+
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+
+# The modid of the mod Sempre da modificare
+modId="toolsofobsidian" #mandatory
+
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+# ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
+# see the associated build.gradle script for how to populate this completely automatically during a build
+version="${file.jarVersion}" #mandatory
+
+ # A display name for the mod Sempre da modificare
+displayName="Tools Of Obsidian" #mandatory
+
+# A URL for the "homepage" for this mod, displayed in the mod UI
+displayURL="https://www.curseforge.com/minecraft/mc-mods/tools-and-armor-of-obsidian" #optional
+
+# A text field displayed in the mod UI
+authors="00theblackwolf00" #optional
+
+# The description text for the mod (multi line!) (#mandatory) Sempre da modificare
+description="This mod add tools of obsidian"
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.toolsofobsidian]] #optional
+
+    # the modid of the dependency
+    modId="forge" #mandatory
+    
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    
+    # The version range of the dependency
+    versionRange="${forge_version_range}" #mandatory
+    
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+    
+# Here's another dependency
+[[dependencies.toolsofobsidian]]
+    modId="minecraft"
+    mandatory=true
+    
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
