@@ -7,7 +7,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public enum ItemTier implements Tier {
-    OBSIDIAN(4, 2500, 10.0f, 6.0f, 16, () -> Ingredient.of(ItemInit.OBSIDIAN_INGOT.get()));
+    OBSIDIAN(4, 2500, 12.0f, 6.0f, 16, () -> Ingredient.of(ItemInit.OBSIDIAN_INGOT.get()));
 
     private final int harvestLevel;
     private final int maxUses;
